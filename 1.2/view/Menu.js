@@ -23,7 +23,7 @@ class Menu {
             console.log('3 - Fim');
 
 
-            opcao = input.questionInt('Digite a opção desejada: ');
+            opcao = input.questionInt('Digite a opcao desejada: ');
 
 
             switch (opcao) {
@@ -45,7 +45,7 @@ class Menu {
                     break;
                 default:
 
-                    console.log('Opção inválida! Tente novamente.');
+                    console.log('Opcao inválida! Tente novamente.');
             }
         }
     }
@@ -63,7 +63,7 @@ class Menu {
             console.log('5 - Voltar p/ menu principal');
 
 
-            opcao = input.questionInt('Digite a opção desejada: ');
+            opcao = input.questionInt('Digite a opcao desejada: ');
 
 
             let cpf;
